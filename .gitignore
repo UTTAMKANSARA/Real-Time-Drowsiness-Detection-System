@@ -1,0 +1,13 @@
+# Ignore the virtual environment
+DrowsyDetect\venv
+
+# Ignore Python cache files
+DrowsyDetect\__pycache__
+
+# Ignore the secret keys!
+DrowsyDetect\config.py
+
+# Ignore local database file
+DrowsyDetect\db.sqlite3
+
+DrowsyDetect\drowsy_project\settings.py

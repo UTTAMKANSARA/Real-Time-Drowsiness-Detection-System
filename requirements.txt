@@ -1,0 +1,21 @@
+# --- AI & COMPUTER VISION ---
+# We use specific versions that are compatible with each other.
+numpy==2.2.4
+opencv-python
+mediapipe
+scipy
+
+# --- WEB FRAMEWORK (For Browser Version) ---
+django
+
+# --- DESKTOP GUI ---
+Pillow
+
+# --- ALERTING ---
+pygame
+twilio
+
+# --- DATA HANDLING (For Training) ---
+pandas
+scikit-learn
+joblib
