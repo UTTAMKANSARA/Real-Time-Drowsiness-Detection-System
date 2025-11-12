@@ -32,15 +32,15 @@ This repository contains two versions of the application:
 
 | Category | Technology | Purpose |
 
-**Language** | **Python 3.11+** | The core language for the entire project. 
-**AI / Computer Vision** | **MediaPipe** | The AI "engine" for real-time facial landmark detection. 
-**OpenCV** | For capturing the webcam feed, image processing, and 3D pose math. 
-**Desktop GUI**| **Tkinter** | Python's built-in library for the standalone desktop GUI. 
-**Pillow (PIL)** | A bridge library to convert OpenCV images into a format Tkinter can display. 
-**Web GUI** | **Django** | A high-level Python framework used to build the web-server version. 
-**Alerting** | **Pygame** | Used to load and play the `.wav` audio alarm. 
-**Twilio** | Cloud communication platform used to send SMS alerts. 
-**Data Handling** | **NumPy & SciPy**| For high-performance numerical calculations (EAR, MAR, etc.). 
+**Language** | **Python 3.11+** | The core language for the entire project. 	
+**AI / Computer Vision** | **MediaPipe** | The AI "engine" for real-time facial landmark detection.	 
+**OpenCV** | For capturing the webcam feed, image processing, and 3D pose math. 	
+**Desktop GUI**| **Tkinter** | Python's built-in library for the standalone desktop GUI.	 
+**Pillow (PIL)** | A bridge library to convert OpenCV images into a format Tkinter can display. 	
+**Web GUI** | **Django** | A high-level Python framework used to build the web-server version. 	
+**Alerting** | **Pygame** | Used to load and play the `.wav` audio alarm. 	
+**Twilio** | Cloud communication platform used to send SMS alerts. 	
+**Data Handling** | **NumPy & SciPy**| For high-performance numerical calculations (EAR, MAR, etc.).	 
 
 
 -----
@@ -170,6 +170,3 @@ This version uses Django to serve the video feed to your browser.
 4.  Open your web browser and go to: **`http://127.0.0.1:8000/`**
 
 -----
-      * Replace the `if/else` logic block with a single line:
-        `prediction = my_model.predict([features])`
-      * This replaces all the manual thresholds with a single, intelligent prediction from your custom-trained AI.
